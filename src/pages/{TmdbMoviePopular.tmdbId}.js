@@ -60,11 +60,11 @@ const MoviePopularTemplate = ({ data }) => {
   return (
     <Layout>
       <Seo title={title} description={overview} />
-      <div className="relative animate-lazy">
+      <div className="relative ">
         {backdrop_path && (
           <img
             src={backdrop_url + backdrop_path}
-            className="absolute inset-0 object-cover w-full h-full"
+            className="absolute inset-0 object-cover w-full h-full "
             alt={title}
           />
         )}
@@ -211,7 +211,7 @@ const MoviePopularTemplate = ({ data }) => {
                 </div>
               </div>
               {poster_path && (
-                <div className="w-full max-w-xl xl:px-8 xl:w-5/12">
+                <div className="w-full max-w-xl xl:px-8 xl:w-5/12 animate-lazy">
                   <div className="rounded  p-7 sm:p-10">
                     <img src={poster_url + poster_path} alt={title} />
                   </div>
@@ -254,7 +254,7 @@ const MoviePopularTemplate = ({ data }) => {
                                   : errImg
                               }
                               alt={cat.name}
-                              className="w-full h-full object-center object-fill lg:w-full lg:h-full"
+                              className="w-full h-full object-center object-fill lg:w-full lg:h-full animate-lazy"
                             />
                           </div>
                           <div className="mt-4 flex justify-between">
