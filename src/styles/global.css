@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700;900&display=swap");
+@import "swiper/swiper.min.css";
+@import "swiper/components/effect-fade/effect-fade.min.css";
+@import "swiper/components/pagination/pagination.min.css";
+@import "swiper/components/navigation/navigation.min.css";
+@import "react-circular-progressbar/dist/styles.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer utilities {
+  body {
+    font-family: "Source Sans Pro", sans-serif;
+  }
+}
+:root {
+  --swiper-theme-color: rgb(0, 105, 98);
+  --swiper-navigation-size: 15px;
+}
+.swiper-button-next,
+.swiper-container-rtl,
+.swiper-button-prev {
+  width: 20px;
+  height: 20px;
+  padding: 15px;
+  border: 3px solid;
+  border-radius: 50%;
+  top: 40%;
+  background-color: rgba(0, 255, 240, 1);
+}
+.swiper-button-next:hover,
+.swiper-container-rtl:hover,
+.swiper-button-prev:hover {
+  transform: scale(1.2, 1.2);
+  box-shadow: 0 0 2rem rgba(0, 255, 240, 1);
+  transition: all 0.3s ease-in-out;
+}
