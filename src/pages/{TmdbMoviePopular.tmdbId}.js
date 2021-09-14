@@ -60,7 +60,7 @@ const MoviePopularTemplate = ({ data }) => {
   return (
     <Layout>
       <Seo title={title} description={overview} />
-      <div className="relative ">
+      <div className="relative">
         {backdrop_path && (
           <img
             src={backdrop_url + backdrop_path}
