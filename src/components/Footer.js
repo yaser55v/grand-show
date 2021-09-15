@@ -36,7 +36,7 @@ const Footer = () => {
           target="_blank"
           rel="noreferrer"
         >
-          Powered by{" "}
+          Powered by
           <img src={tmdb} alt="The Movie Database" className="ml-2 w-40" />
         </a>
       </footer>
