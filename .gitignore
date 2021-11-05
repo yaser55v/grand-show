@@ -54,7 +54,7 @@ typings/
 
 .npm
 
-# Optional eslint cache
+# Optional eslint
 
 .eslintcache
 
