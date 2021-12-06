@@ -26,7 +26,7 @@ const Footer = () => {
           target="_blank"
           rel="noreferrer"
         >
-          Support me
+          Support Me
           <img src={twitter} alt="The Movie Database" className="ml-2 w-8" />
         </a>
 
