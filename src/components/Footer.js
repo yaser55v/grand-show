@@ -37,7 +37,7 @@ const Footer = () => {
           rel="noreferrer"
         >
           Powered by
-          <img src={tmdb} alt="The Movie Database" className="ml-2 w-40" />
+          <img src={tmdb} alt="Movie Database" className="ml-2 w-40" />
         </a>
       </footer>
     </>
