@@ -49,7 +49,7 @@ const Home = () => {
                     <div className="w-full h-full">
                       <img
                         className="w-full shadow-lg h-full"
-                        src={original}
+                        src={original ? original : null}
                         alt={title}
                       />
                     </div>
