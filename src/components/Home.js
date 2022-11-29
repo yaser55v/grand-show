@@ -40,7 +40,7 @@ const Home = () => {
                 const {
                   id,
                   title,
-                  backdrop_path: { original },
+                  backdrop_path: { original, w1280 },
                   overview,
                   poster_path: { w780 },
                 } = movie
@@ -49,7 +49,7 @@ const Home = () => {
                     <div className="w-full h-full">
                       <img
                         className="w-full shadow-lg h-full"
-                        src={original ? original : null}
+                        src={original ? original : w1280}
                         alt={title}
                       />
                     </div>
@@ -101,6 +101,7 @@ const query = graphql`
         title
         backdrop_path {
           original
+          w1280
         }
         overview
         poster_path {
