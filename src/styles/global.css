@@ -15,7 +15,7 @@
 }
 :root {
   --swiper-theme-color: rgb(0, 105, 98);
-  --swiper-navigation-size: 14px;
+  --swiper-navigation-size: 15px;
 }
 .swiper-button-next,
 .swiper-container-rtl,
