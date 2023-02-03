@@ -70,7 +70,7 @@ const List = () => {
               <Tab.Panel key={idx}>
                 <>
                   {items.map(item => (
-                    <div key={item.id}>
+                    <div className="" key={item.id}>
                       {item.component}
                     </div>
                   ))}
