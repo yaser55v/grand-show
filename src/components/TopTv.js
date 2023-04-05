@@ -18,7 +18,7 @@ const TopTv = () => {
               <div key={id} className="group relative">
                 <div className="w-full h-full bg-gray-200 aspect-w-1 aspect-h-1 rounded-md overflow-hidden group-hover:opacity-75  lg:aspect-none">
                   <img
-                    src={w780}
+                    src={w780 ? w780 : 'https://images.unsplash.com/photo-1598899134739-24c46f58b8c0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=4456&q=80'}
                     alt={name}
                     className="w-full h-full object-center object-cover lg:w-full lg:h-full animate-lazy"
                   />
